@@ -64,9 +64,6 @@ SELECT course_name AS "Courses, hardest to easiest:", average_score AS "Average 
 FROM courses
 ORDER BY average_score ASC;
 
-# Finding which student and professor have the most courses in common
-#I wasnt quite able to figure out the logic for this one, unfortunately.
-
 # Setting sql safe mode back to on
 # SET SQL_SAFE_UPDATES = 1;
 
